@@ -3,8 +3,8 @@ import Login from './Login';
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to My App</h1>
+    <div >
+      <h1 className="d-flex justify-content-center">Banking App</h1>
       <Login />
     </div>
   );
