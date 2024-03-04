@@ -7,8 +7,7 @@ function Login() {
     const [password, setPassword] = useState('');
 
     function handleSubmit(event) {
-        event.preventDefault();
-    
+        event.preventDefault();    
         axios.post('http://localhost:8081/login', {email, password})
         .then(res => console.log(res))
         .catch(err => console.log(err));
